@@ -8,7 +8,17 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <!--CSS Style-->
     <link rel="stylesheet" href="style.css" />
+    <!--Animate CSS-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--Meta-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +26,7 @@
   </head>
   <body>
     <!--Nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
       <div class="container-fluid">
         <!-- Image and text -->
         <nav class="navbar navbar-light bg-custom">
@@ -55,12 +65,122 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Productos</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Distribuidores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ensayos Y Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!--Header-->
+    <!--INTRO Header-->
+    <div id="intro" class="view">
+      <div class="mask rgba-black-strong">
+        <div
+          class="container-fluid d-flex align-items-center justify-content-center h-100"
+        >
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-10">
+              <!-- Heading -->
+              <h1 class="display-1 font-weight-bold white-text pt-5 mb-5">
+                Inversiones Jardines Sierra S.A
+              </h1>
+
+              <!--IMG-->
+              <img class="animate__animated animate__bounce" src="/img/logo.png" alt="logo" />
+
+              <!-- Divider -->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--SECTIONS-->
+    <!--nuestra-empresa-->
+    <section class="page-section" id="nuestra-empresa">
+      <div class="container-fluid">
+        <h2 class="page-section-heading text-center text-uppercase mb-0">
+          Nuestra Empresa
+        </h2>
+        <hr>
+        <p class="descripcion">
+          Somos una empresa Colombiana dedicada a la producción y
+          comercialización de insumos agrícolas, enfocada en el manejo
+          biorracional de plagas y enfermedades de los cultivos.
+        </p>
+        <div class="row">
+          <div class="col-6">
+            <!--Image-->
+            <div class="container">
+              <div class="imagen_nuestra_emp grow">
+                <img src="/img/img_0671.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-6 align-self-center">
+            <p>
+              Contamos con un equipo de agrónomos dedicado al estudio y capacitación
+              en campo en cultivos como:
+              <ul>
+                <li>Flores de exportación</li>
+                <li>Frutales</li>
+                <li>Cítricos</li>
+                <li>Aromáticas</li>
+                <li>Ornamentales</li>
+              </ul>
+            </p>
+          </div>
+          <p class="descripcion">Buscamos siempre el mejoramiento continuo en nuestros productos y servicios, teniendo
+            como objetivo que nuestros clientes, aliados comerciales y accionistas sean los mayores beneficiados de todo nuestro esfuerzo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--productos-->
+    <section class="page-section" id="productos">
+      <div class="container-fluid">
+        <h2 class="page-section-heading text-center text-uppercase mb-0">
+          Productos
+        </h2>
+        <hr>
+        <h4>Portafolio de Productos Para Protección de Cultivos</h4>
+        <div class="row d-flex justify-content-center align-items-center text-center">
+          <div class="col-4 justify-content-center">
+            <div class="cont-producto grow">
+              <img src="/img/citro.png" alt="Citroemulsión">
+              <div class="container">
+                <p>Citroemulsión</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 justify-content-center">
+            <div class="cont-producto grow">
+              <img src="/img/prohor.png" alt="Prohorticola">
+              <div class="container">
+                <p>Prohorticola</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 justify-content-center">
+            <div class="cont-producto grow">
+              <img src="/img/lombri.png" alt="Lombricompuesto">
+              <div class="container">
+                <p>Lombricompuesto</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--Bootstrap JS-->
     <script

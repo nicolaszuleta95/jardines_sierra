@@ -1,5 +1,6 @@
 body {
-  background-color: whitesmoke;
+  background-color: white;
+  font-family: "Work Sans", sans-serif;
 }
 
 /*---------------------*/
@@ -12,5 +13,98 @@ body {
 /*---------------------*/
 /*HEADER*/
 /*---------------------*/
+#intro {
+  height: 100%;
+  background: url("/img/verde.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+#intro h1,
+hr {
+  color: aliceblue;
+}
+
+#intro h1 {
+  margin-top: 4rem;
+  text-shadow: 1px 2px 0 #969696, 1px 5px 2px #aba8a8;
+}
+
+#intro img {
+  filter: drop-shadow(10px 10px 10px #222);
+  margin-bottom: 2em;
+}
 
 /*---------------------*/
+/*NUESTRA EMPRESA*/
+/*---------------------*/
+
+#nuestra-empresa h2 {
+  margin-top: 2rem;
+}
+
+#nuestra-empresa img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2rem;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+#nuestra-empresa ul {
+  list-style-image: url("/img/seedling-solid.svg");
+}
+
+hr {
+  color: #08913b;
+  width: 30em;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.descripcion {
+  text-align: center;
+}
+
+/*---------------------*/
+/*Productos*/
+/*---------------------*/
+#productos {
+  background-color: #e0e0e0;
+}
+
+#productos h2 {
+  padding-top: 2rem;
+}
+
+#productos h4 {
+  margin-bottom: 2rem;
+}
+
+.cont-producto {
+  width: 60%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.cont-producto img {
+  width: 100%;
+}
+
+.cont-producto .container {
+  text-align: center;
+  padding: 10px 5px;
+}
