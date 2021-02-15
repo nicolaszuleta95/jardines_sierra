@@ -1,6 +1,7 @@
 body {
   background-color: white;
   font-family: "Work Sans", sans-serif;
+  margin: 0;
 }
 
 /*---------------------*/
@@ -73,7 +74,7 @@ hr {
 
 hr {
   color: #08913b;
-  width: 30em;
+  width: 300px;
   margin: auto;
   margin-bottom: 2rem;
 }
