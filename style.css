@@ -10,6 +10,10 @@ body {
   background-color: #08913b;
 }
 
+.navbar img {
+  filter: drop-shadow(10px 10px 10px #222);
+}
+
 /*---------------------*/
 /*HEADER*/
 /*---------------------*/
@@ -166,6 +170,7 @@ hr {
 
 #foot img {
   width: 100px;
+  filter: drop-shadow(10px 10px 10px #222);
 }
 
 #foot span {
