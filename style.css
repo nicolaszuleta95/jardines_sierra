@@ -15,7 +15,7 @@ body {
 /*---------------------*/
 #intro {
   height: 100%;
-  background: url("/img/verde.jpg") no-repeat center center fixed;
+  background: url("img/verde.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -67,7 +67,7 @@ hr {
 }
 
 #nuestra-empresa ul {
-  list-style-image: url("/img/seedling-solid.svg");
+  list-style-image: url("img/seedling-solid.svg");
 }
 
 hr {
@@ -99,7 +99,7 @@ hr {
 }
 
 #productos ul {
-  list-style-image: url("/img/seedling-solid.svg");
+  list-style-image: url("img/seedling-solid.svg");
 }
 
 .cont-producto {
